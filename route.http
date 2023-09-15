@@ -1,0 +1,12 @@
+# @name get-prompts
+GET http://localhost:3000/prompts
+
+###
+
+# @name list-prompts
+
+POST http://localhost:3000/videos
+Content-type multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+-- ----WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="text"
